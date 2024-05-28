@@ -1,0 +1,98 @@
+.block__content {
+
+}
+
+.seo-custom-form {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.js-form-item {}
+.js-form-type-textfield {}
+
+.js-form-type-select {
+  position: absolute;
+  transform: translate(50px, 0px);
+}
+.js-form-type-select .form-select {
+  height: 7.5rem;
+}
+
+.js-form-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+.js-form-item:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+.js-form-item:nth-child(3) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.js-form-item:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+.js-form-item:nth-child(5) {
+  grid-column: 1;
+  grid-row: 3;
+}
+.js-form-item:nth-child(6) {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.submitted-values {
+  grid-column: 1 / 3;
+  grid-row: 5;
+
+  background: #0058ff08;
+  border: 2px black solid;
+  border-radius: 11px;
+  width: 100%;
+  height: 300px;
+  scroll-behavior: auto;
+  overflow: auto;
+}
+
+.js-form-submit[value="Senden"] {
+  grid-column: 1;
+  grid-row: 4;
+  width: 7.5rem;
+}
+
+#edit-redireca {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+#edit-redirectb {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+/*keyworddisplay*/
+.js-form-type-item {}
+.js-form-type-item .content-container {
+  overflow: auto;
+  height: 50vh;
+}
+.js-form-type-item .form-checkboxes {
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+.js-form-type-item .form-checkboxes .form-item {
+  height: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.js-form-type-item .form-checkboxes .form-item form-item__label {
+  display: contents;
+}

@@ -1,0 +1,24 @@
+custom-seo-tool-form:
+  path: '/aiseo'
+  defaults:
+    _form: '\Drupal\aiseo\Form\CustomSeoTool'
+    _title: 'AISEO - AI SEO Tool'
+  requirements:
+    _permission: 'access content'
+
+keyword-import-form:
+  path: '/aiseo/keyword-import'
+  defaults:
+    _form: '\Drupal\aiseo\Form\KeywordImportForm'
+#    _controller: '\Drupal\aiseo\Controller\KeywordImportController::content'
+    _title: 'AISEO - Keyword Import'
+  requirements:
+    _permission: 'access content'
+
+content-display-form:
+  path: '/aiseo/content-display'
+  defaults:
+    _form: '\Drupal\aiseo\Form\KeywordContentDisplayForm'
+    _title: 'AISEO - Inhalt Verwalten'
+  requirements:
+    _permission: 'access content'

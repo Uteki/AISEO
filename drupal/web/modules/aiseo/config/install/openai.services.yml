@@ -1,0 +1,4 @@
+services:
+  openai.client:
+    class: OpenAI\Client
+    arguments: [xxxxx]
