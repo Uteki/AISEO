@@ -1,0 +1,7 @@
+name: AISEO - AI SEO Tool
+description: AI Driven SEO Custom Form - Ermöglicht die Erstellung von SEO-basierten Inhalten, Titeln und Meta Descriptions.
+type: module
+core_version_requirement: ^9 | ^10
+version: VERSION
+services:
+  - '@openai.client'
